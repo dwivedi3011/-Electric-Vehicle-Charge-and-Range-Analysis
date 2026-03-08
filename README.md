@@ -1,165 +1,170 @@
-# ⚡ Electric Vehicle Data Analysis
+⚡ Electric Vehicle Data Analysis (Group Project)
 
-> Interactive data visualizations exploring the electric vehicle ecosystem in India, powered by Tableau and Flask.
+Interactive data visualizations exploring the electric vehicle ecosystem in India, powered by Tableau and Flask.
+## 🎯 Live Demo 
+**🌐 Web App:** [keshu.pythonanywhere.com](http://keshu.pythonanywhere.com) 
+**📊 Tableau Public:** - [Dashboard](https://public.tableau.com/app/profile/kushagra.verma4013/viz/Book2_17729068481180/Dashboard1)
+-[Data Story](https://public.tableau.com/app/profile/kushagra.verma4013/viz/Book2_17729068481180/StoryofElelcticCarsinIndia)
 
-[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](http://keshu.pythonanywhere.com)
-[![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![Flask](https://img.shields.io/badge/flask-3.0.0-lightgrey.svg)](https://flask.palletsprojects.com/)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+🚗 Project Overview
 
-## 🚗 What is this?
+This group project analyzes the growth and ecosystem of Electric Vehicles (EVs) in India using data analytics and visualization tools.
 
-Ever wondered about the state of electric vehicles in India? This project dives deep into EV datasets to uncover insights about adoption patterns, charging infrastructure, battery performance, and vehicle efficiency.
+The project explores EV datasets to uncover insights about:
 
-The analysis is presented through **interactive Tableau dashboards** embedded in a clean, responsive Flask web application. Explore the data, discover trends, and understand the EV landscape—all through your browser.
+EV adoption patterns
 
-## 🎯 Live Demo
+Charging infrastructure distribution
 
-**🌐 Web App:** [keshu.pythonanywhere.com](http://keshu.pythonanywhere.com)
+Battery capacity vs driving range
 
-**📊 Tableau Public:**
-- [Dashboard](https://public.tableau.com/app/profile/kushagra.verma4013/viz/Book2_17729068481180/Dashboard1)
-- [Data Story](https://public.tableau.com/app/profile/kushagra.verma4013/viz/Book2_17729068481180/StoryofElelcticCarsinIndia)
+Efficiency of different EV models
 
-## ✨ Features
+The analysis is presented through interactive Tableau dashboards embedded into a Flask web application, allowing users to explore EV data insights through an easy-to-use web interface.
 
-- **Interactive Dashboards** – Filter, explore, and analyze EV data dynamically
-- **Guided Data Story** – Follow a narrative through key insights and trends
-- **Clean UI** – Professional black & white design with smooth animations
-- **Responsive Design** – Works seamlessly on desktop and mobile
-- **Easy Navigation** – Simple three-page structure for intuitive exploration
+🎯 Live Demo
 
-## 🔍 Key Insights
+🌐 Web Application
+http://keshu.pythonanywhere.com
 
-Through this analysis, you'll discover:
+📊 Tableau Public Dashboards
 
-- 🔋 How battery capacity correlates with driving range
-- 🗺️ Where charging infrastructure is concentrated (hint: urban areas)
-- 📈 Efficiency variations across different EV models
-- 💰 Which budget-friendly EVs offer the best range and efficiency
+Dashboard
+https://public.tableau.com/app/profile/kushagra.verma4013/viz/Book2_17729068481180/Dashboard1
 
-## 🛠️ Tech Stack
+Data Story
+https://public.tableau.com/app/profile/kushagra.verma4013/viz/Book2_17729068481180/StoryofElelcticCarsinIndia
 
-| Category | Technologies |
-|----------|-------------|
-| **Backend** | Python, Flask |
-| **Frontend** | HTML5, CSS3 |
-| **Visualization** | Tableau Public |
-| **Database** | MySQL, SQL |
-| **Deployment** | PythonAnywhere |
+✨ Features
 
-## 📁 Project Structure
+📊 Interactive Tableau Dashboards for EV data exploration
 
-```
+📖 Guided Data Story explaining key EV insights
+
+💻 Flask Web Application to host and display dashboards
+
+📱 Responsive UI Design compatible with desktop and mobile
+
+🔍 User-friendly navigation for exploring EV trends
+
+🔍 Key Insights from the Analysis
+
+This project reveals several important insights about EV adoption:
+
+🔋 Battery capacity vs driving range relationship
+
+🗺️ Charging infrastructure concentrated mainly in urban areas
+
+📈 Performance comparison between EV models
+
+💰 Affordable EV models offering good efficiency and range
+
+🛠️ Technology Stack
+Category	Technologies
+Backend	Python, Flask
+Frontend	HTML5, CSS3
+Data Visualization	Tableau Public
+Database	MySQL, SQL
+Deployment	PythonAnywhere
+📁 Project Structure
 Electric_Vehicle_Data_Analysis/
 │
-├── app.py                    # Flask application
-├── requirements.txt          # Python dependencies
-├── wsgi.py                  # WSGI configuration for deployment
-├── README.md                # You are here!
+├── app.py                  # Flask backend application
+├── requirements.txt        # Python dependencies
+├── wsgi.py                 # Deployment configuration
+├── README.md
 │
-├── templates/               # HTML templates
-│   ├── index.html          # Landing page
-│   ├── dashboard.html      # Dashboard viewer
-│   └── story.html          # Story viewer
+├── templates/              # HTML templates
+│   ├── index.html
+│   ├── dashboard.html
+│   └── story.html
 │
-└── static/                  # Static assets
+└── static/
     └── css/
-        └── style.css       # Styling and animations
-```
+        └── style.css
+🚀 Running the Project Locally
+Prerequisites
 
-## 🚀 Running Locally
+Python 3.8 or above
 
-### Prerequisites
+pip package manager
 
-- Python 3.8 or higher
-- pip (Python package manager)
+Installation
+1️⃣ Clone the repository
+git clone https://github.com/IndicKangaroo/Electric_Vehicle_Data_Analysis.git
+cd Electric_Vehicle_Data_Analysis
+2️⃣ Install dependencies
+pip install -r requirements.txt
+3️⃣ Run the application
+python app.py
+4️⃣ Open in browser
+http://localhost:5000
+🌐 Deployment
 
-### Installation
+This project is deployed using PythonAnywhere.
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/IndicKangaroo/Electric_Vehicle_Data_Analysis.git
-   cd Electric_Vehicle_Data_Analysis
-   ```
+Steps to deploy:
 
-2. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
+Create an account on PythonAnywhere
 
-3. **Run the application**
-   ```bash
-   python app.py
-   ```
+Upload the project files
 
-4. **Open in your browser**
-   ```
-   http://localhost:5000
-   ```
+Configure the WSGI file
 
-That's it! The app should now be running locally.
+Set static files mapping
 
-## 🌐 Deployment
+Reload the web application
 
-This project is deployed on **PythonAnywhere**. To deploy your own instance:
+📊 Data Sources
 
-1. Sign up at [pythonanywhere.com](https://www.pythonanywhere.com)
-2. Upload your project files
-3. Configure the WSGI file with your project path
-4. Set up static files mapping
-5. Reload your web app
+The project uses publicly available EV datasets including:
 
-For detailed deployment instructions, check out the `PYTHONANYWHERE_DEPLOYMENT.md` guide in the repository.
+Electric vehicle specifications
 
-## 📊 Data Sources
+Charging station infrastructure data
 
-The analysis uses publicly available datasets on:
-- Electric vehicle models and specifications
-- Charging station locations and infrastructure
-- Battery performance metrics
-- EV adoption statistics in India
+Battery performance metrics
 
-All visualizations were created in Tableau Public and embedded into the Flask application for interactive exploration.
+EV adoption statistics in India
 
-## 🎨 Design Philosophy
+The datasets were analyzed and visualized using Tableau Public.
 
-The UI follows a minimalist, professional design approach:
-- **Black & white color scheme** for clarity and focus
-- **Smooth animations** for enhanced user experience
-- **Clean typography** for readability
-- **Responsive layout** for all screen sizes
+🎨 Design Approach
 
-## 🤔 Why This Project?
+The web interface follows a minimalist and professional design:
 
-Electric vehicles are the future of transportation, and India is rapidly expanding its EV ecosystem. This project demonstrates how **data visualization can make complex datasets accessible and actionable**.
+Clean black & white UI
 
-Whether you're a policy maker, researcher, EV enthusiast, or just curious about sustainable transportation, these visualizations provide valuable insights into the EV landscape.
+Smooth animations
 
-## 📝 Future Enhancements
+Clear typography
 
-- [ ] Add real-time charging station availability
-- [ ] Include cost comparison analysis
-- [ ] Integrate government incentive data
-- [ ] Add predictive models for EV adoption trends
-- [ ] Multi-language support
+Responsive design for multiple devices
 
-## 🤝 Contributing
+👥 Team Members
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/IndicKangaroo/Electric_Vehicle_Data_Analysis/issues).
+This project was developed collaboratively as part of a group academic project.
 
-## 📧 Contact
-
-**Kushagra Verma**
-
-- GitHub: [@IndicKangaroo](https://github.com/IndicKangaroo)
-- Tableau Public: [Profile](https://public.tableau.com/app/profile/kushagra.verma4013)
-
-
-<div align="center">
-
-**⭐ Star this repo if you found it helpful!**
+Name	Role
+Krish Kumar Chaurasia	Project Lead
+Kushagra Verma	Data Analysis & Tableau Dashboards
+Manas Mayank Verma	Team Member
+Himanshu Kumar	Team Member
 
 
 
-</div>
+📝 Future Enhancements
+
+Real-time EV charging station data
+
+Cost comparison between EV and petrol vehicles
+
+Predictive analytics for EV adoption trends
+
+Government subsidy analysis
+
+Expanded datasets and analytics
+
+🤝 Contributions
+
+This project was developed as a collaborative academic project. Contributions and improvements are welcome.
