@@ -1,10 +1,17 @@
 ⚡ Electric Vehicle Data Analysis (Group Project)
 
 Interactive data visualizations exploring the electric vehicle ecosystem in India, powered by Tableau and Flask.
-## 🎯 Live Demo 
-**🌐 Web App:** [keshu.pythonanywhere.com](http://keshu.pythonanywhere.com) 
-**📊 Tableau Public:** - [Dashboard](https://public.tableau.com/app/profile/kushagra.verma4013/viz/Book2_17729068481180/Dashboard1)
--[Data Story](https://public.tableau.com/app/profile/kushagra.verma4013/viz/Book2_17729068481180/StoryofElelcticCarsinIndia)
+## 🎯 Live Demo
+
+**🌐 Web App:**  
+[keshu.pythonanywhere.com](http://keshu.pythonanywhere.com)
+
+**📊 Tableau Public:**  
+- [Dashboard](https://public.tableau.com/app/profile/kushagra.verma4013/viz/Book2_17729068481180/Dashboard1)  
+- [Data Story](https://public.tableau.com/app/profile/kushagra.verma4013/viz/Book2_17729068481180/StoryofElelcticCarsinIndia)
+
+**🎥 Demo Video:**  
+- [Watch Demo Video](https://drive.google.com/file/d/1y0diLt3Er5kjfyG6H0zq9TqMNumQlfqv/view?usp=sharing)
 
 🚗 Project Overview
 
