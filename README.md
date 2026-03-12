@@ -11,7 +11,7 @@ Interactive data visualizations exploring the electric vehicle ecosystem in Indi
 - [Data Story](https://public.tableau.com/app/profile/kushagra.verma4013/viz/Book2_17729068481180/StoryofElelcticCarsinIndia)
 
 **🎥 Demo Video:**  
-- [Watch Demo Video](https://drive.google.com/file/d/1y0diLt3Er5kjfyG6H0zq9TqMNumQlfqv/view?usp=sharing)
+-
 
 🚗 Project Overview
 
@@ -147,10 +147,10 @@ This project was developed collaboratively as part of a group academic project.
 
 | Name | Role |
 |------|------|
-| Krish Kumar Chaurasia | Project Lead |
-| Kushagra Verma | Data Analysis & Tableau Dashboards |
-| Manas Mayank Verma | Team Member |
-| Himanshu Kumar | Team Member |
+| Siddhant Dwivedi | Project Lead |
+| Sumit Rajput | Data Analysis & Tableau Dashboards |
+| vivek kumar kasana  | Team Member |
+| vivek | Team Member |
 
 
 
