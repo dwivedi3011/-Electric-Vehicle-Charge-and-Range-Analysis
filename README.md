@@ -147,10 +147,10 @@ This project was developed collaboratively as part of a group academic project.
 
 | Name | Role |
 |------|------|
-| Krish Kumar Chaurasia | Project Lead |
-| Kushagra Verma | Data Analysis & Tableau Dashboards |
-| Manas Mayank Verma | Team Member |
-| Himanshu Kumar | Team Member |
+| Sidhant dwivedi | Project Lead |
+|vivek kumar kasana | Data Analysis & Tableau Dashboards |
+| vivek  | Team Member |
+| Sumit rajput| Team Member |
 
 
 
